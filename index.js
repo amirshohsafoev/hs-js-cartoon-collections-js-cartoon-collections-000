@@ -1,12 +1,10 @@
 function dwarfRollCall(dwarves) {
-  var string = "The dwarves are numbered: "
-  for (var i = 0; i < dwarves.length - 1 ; i++  ){
+  var string = ""
+  for (var i = 0; i < dwarves.length; i++){
 
-     string += `${i + 1}. ${dwarves[i]}, `
-    }
-    
-    string += `${dwarves.length}. ${dwarves[dwarves.length-1]}`
-    
+     string += `${i + 1}. ${dwarves[i]} `
+   
+  } 
     return string;
   
 }
