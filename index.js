@@ -35,9 +35,9 @@ function longPlaneteerCalls(words) {
 
 function findTheCheese (foods) {
   //var i = 0;
-  var cheese = [cheddar, gouda, camembert];
+  ///var cheese = "cheddar, gouda, camembert";
   for ( var i = 0; i < foods.length; i++) {
-    if (foods[i].match(cheese))
+    if (foods[i].match(cheddar/gouda/camembert))
     return foods[i];
   }
    {
