@@ -24,11 +24,12 @@ return  planeteerCalls
 
 function longPlaneteerCalls(words) {
   var i = 0;
-  if ( words[i].length < 4){
-    return false
-    i++;
+  if ( words[i].length > 4){
+    return true;
+    
 }else {
-  return true
+  i++;
+  return false;
 }
 }
 
